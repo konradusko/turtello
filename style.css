@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* global */
+
+.contener {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* header */
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orange 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header #logo {
+    float: left;
+}
+
+header #logo h1 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+header nav {
+    float: right;
+    margin-bottom: 10px;
+
+}
+
+header a:hover {
+    color: crimson;
+}
+
+header h1 string {
+    color: crimson;
+}
+
+/* koniec header */
+
+/* sekcja 1 */
+
+.sekcja1 {
+    background-image: url(test.png);
+    width: 100%;
+    height: 90vh;
+}
+
+.sekcja1 h1 {
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 30px;
+    width: 40%;
+}
+
+.sekcja1 a {
+    float: left;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    border: 3px solid orange;
+    margin-top: 20px;
+}
+
+.sekcja1 a:hover {
+    color: crimson;
+    background-color: #ddb;
+}
+
+/* sekcja onas */
+
+#Onas {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    min-height: 600px;
+}
+
+#Onas h2 {
+    font-size: 35px;
+    padding: 20px 0;
+    color: #35424a;
+}
+
+#Onas h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#Onas p {
+    padding: 10px 0;
+    font-size: 17px;
+
+}
+
+#reszta {
+    float: left;
+    width: 40%;
+    margin-right: 20px;
+}
+
+#obrazek {
+    width: 40%;
+    float: left;
+}
+
+/*pierdoly kolejna sekcja */
+
+#pierdoly {
+    width: 90%;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pp {
+    width: 25%;
+    float: left;
+    min-height: 600px;
+}
+
+#p1 {
+    min-height: 300px;
+}
+
+#p2 {
+    min-height: 300px;
+}
+
+/* nie podoba mi sie potem do poprawki grrrr */
+
+#obrazekp {
+    width: 50%;
+    min-height: 600px;
+    float: left;
+    background-image: url(tlo.png);
+}
+
+/*az do tego momentu */
+
+#pp2 {
+    width: 25%;
+    float: left;
+    min-height: 600px;
+}
+
+#p3 {
+    min-height: 300px;
+}
+
+#p4 {
+    min-height: 300px;
+}
+
+#pierdoly h3 {
+    font-size: 25px;
+    border-bottom: 2px solid #35424a;
+    padding-bottom: 10px;
+}
+
+#pierdoly p {
+    padding-top: 20px;
+}
+
+/* klijenci */
+
+#all {
+    margin-top: 60px;
+    text-align: center;
+    min-height: 400px;
+    width:100%;
+
+}
+
+#ind {
+    width: 49.5%;
+    min-height: 400px;
+    float: left;
+        background-color:#55424a;
+        border-radius: 20px 20px;
+
+}
+#lol{
+    width:1%;
+    min-height: 400px;
+    float:left;
+    background-color:#f4f4f4;
+
+}
+
+#biz {
+    width: 49.5%;
+    min-height: 400px;
+    float: left;
+        background-color:#49424a;
+        border-radius: 20px 20px;
+    margin-bottom:30px;
+}
+
+#klijenci h3 {
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#klijenci h2 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+#klijenci p {
+    padding-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+/* do poprawki bo hujowe */
+#klijenci button {
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: none;
+    color:darkorange;
+    background-color:#80424a;
+    padding:20px;
+    border-radius: 20px 20px;
+}
+#klijenci button a{
+    text-decoration:none;
+    color:darkorange;
+}
+/* _________ */
+/* kulki */
+#kulki{
+    margin-top:50px;
+    width:100%;
+    min-height:250px;
+    
+    
+}
+#kulki ul{
+    text-align: center;
+    padding:20px;
+    margin-top:100px;
+}
+#kulki ul li{
+    display:inline-block;
+    background-color:#80424a;
+    font-size:25px;
+    text-align:center;
+    height:220px;
+    width:220px;
+    border-radius:45% 45%;
+   padding:20px;
+    margin-left:8px;
+    margin-right:8px;
+}
+#kulki ul li i{
+    font-size:85px;
+    margin-top:25px;
+}
+#kulki ul li p{
+margin-top:25px;
+    color:darkorange;
+}
+/* kontakt */
+#kontakt{
+    width:50%;
+    margin:auto;
+    min-height:300px;
+    text-align:center;
+}
+#kont{
+    margin-top:60px;
+    padding-left:50px;
+    padding-right:50px;
+}
+#kont h1{
+    font-size:30px;
+    padding-top:30px;
+    padding-bottom:10px;
+    border-bottom:3px solid orange;
+    
+}
+#kont h2{
+    font-size:25px;
+    padding:20px;
+}
+#kont p{
+    font-size:20px;
+    border-top:3px solid orange;
+    padding-top:10px;
+}
+#kont i{
+    font-size:40px;
+    padding:10px;
+}
+/* footer */
+footer{
+    width:100%;
+    min-height: 120px;
+    background-color:#20424a;
+    margin-top:60px;
+}
+#ost{
+    width:50%;
+    min-height:120px;
+        float:left;
+}
+#ost2{
+    width:50%;
+    min-height: 120px;
+    float:left;
+
+}
+#ost p{
+    text-align:center;
+    margin-top:10px;
+    padding-top:10px;
+}
+#ost2 {
+    text-align:center;
+}
+#ost2 p{
+    font-size:25px;
+    padding-bottom:10px;
+    padding-top:20px;
+}
+#ost2 ul li{
+    display:inline-block;
+    font-size:30px;
+    padding: 10px 25px;
+}
+#ost2 ul li i{
+    color:darkorange;
+}
